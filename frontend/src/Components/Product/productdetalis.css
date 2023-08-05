@@ -1,0 +1,53 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.card-Details {
+  max-width: 700px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 0px 0px 5px 0 gray;
+  padding: 25px;
+}
+
+.card-Details span {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+.quantity h1 {
+  margin: 0;
+}
+
+.AddtoCart {
+  background: rgb(10, 160, 130) !important;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.ContentCardProduct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sectondetalsproduct {
+  height: 52vh;
+}

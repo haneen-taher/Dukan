@@ -1,0 +1,291 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.hero-container {
+  position: relative;
+  width: 100%;
+
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 1;
+}
+
+.content-container {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  color: #fff;
+  -webkit-text-stroke: 1px black;
+}
+
+.title:hover {
+  color: rgba(255, 225, 106, 1);
+  -webkit-text-stroke: 1px black;
+}
+
+.dukan {
+  color: rgba(255, 225, 106, 1);
+  font-weight: 800;
+  -webkit-text-stroke: 1px black;
+}
+
+.dukan:hover {
+  color: #fff;
+  -webkit-text-stroke: 1px black;
+}
+
+.description {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  -webkit-text-stroke: 1px black;
+}
+
+.description:hover {
+  color: rgba(255, 225, 106, 1);
+  -webkit-text-stroke: 1px black;
+}
+
+/*categoryCard style*/
+.card-title {
+  text-align: center;
+  margin: 3rem;
+}
+
+.card-img-top {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.card-img-top:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*AboutSlider*/
+.about:hover {
+  background-color: rgba(117, 201, 183, 0.634);
+}
+
+.about {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.about:hover {
+  transform: scale(1.1);
+}
+
+.title-one {
+  text-align: center;
+}
+
+.cta-button {
+  padding: 1rem 2rem !important;
+  font-size: 1.2rem !important;
+  background-color: rgb(117, 201, 183) !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+  margin: 2rem !important;
+}
+
+.cta-button:hover {
+  color: rgba(255, 225, 106, 1);
+}
+
+.card {
+  /* max-width: 350px !important; */
+}
+
+.card-img-top:hover {
+  transform: scale(1) !important;
+}
+
+.about:hover {
+  transform: scale(1);
+}
+
+/* <!--------------------------------------- start img focus-------------> */
+
+.imgs-focus {
+  width: 100vw;
+}
+
+.continar-img-focus {
+  display: grid;
+  grid-template-columns: 45vw 20vw 20vw;
+  justify-content: center;
+}
+
+@media (max-width: 1147px) {
+  .continar-img-focus {
+    grid-template-columns: 30vw 30vw 30vw;
+  }
+}
+
+@media (max-width: 770px) {
+  .continar-img-focus {
+    grid-template-columns: repeat(auto-fill, minmax(60vw, 30vw));
+    gap: 20px;
+  }
+}
+
+.img-focus {
+  overflow: hidden;
+  position: relative;
+}
+
+.img-focus img {
+  width: 100%;
+  height: 250px;
+  transition: 1s;
+}
+
+.img-focus:hover img {
+  transform: scale(1.2);
+}
+
+.img-focus:hover h5 {
+  bottom: -7px;
+}
+
+/* .img-focus div {
+  background-color: rgba(156, 156, 156);
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+} */
+.img-focus h5 {
+  position: absolute;
+  bottom: -258px;
+  background-color: rgba(192, 189, 189, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  transition: 0.5s;
+  padding: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+.img-focus span {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  font-weight: 800;
+  font-size: 32px;
+  transition: 1s;
+  color: white;
+  font-weight: 800;
+}
+
+.img-focus:hover span {
+  top: 45%;
+}
+
+.tittle-focus {
+  width: 85vw;
+  display: flex;
+  align-items: center;
+  margin: 0px auto;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.imgs-focus {
+  margin: 80px 0;
+}
+
+.tittle-focus p {
+  width: 780px;
+}
+
+.tittle-focus .btn {
+  padding: 10px !important;
+}
+
+.tittle-focus span {
+  color: rgb(255, 128, 0);
+}
+
+@media (max-width: 1390px) {
+  .tittle-focus p {
+    font-size: 16px !important;
+    width: 541px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .tittle-focus {
+    flex-wrap: wrap;
+  }
+
+  .tittle-focus .btn {
+    margin-top: 10px;
+  }
+}
+
+/* <!--------------------------------------- end img focus---------------> */
+
+.slider {
+  margin: 0 20px;
+  overflow: "hidden";
+  padding: 2rem 0;
+}
+
+.slider img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.react-multi-carousel-list {
+  padding: 0rem 0 2rem 0;
+}
+
+.custom-dot-list-style button {
+  border: none;
+  background: rgb(255, 68, 68);
+}
+
+.react-multi-carousel-dot.react-multi-carousel-dot--active button {
+  background: rgb(255, 68, 68) !important;
+}
+
+.react-multi-carousel-dot button {
+  background: rgb(117, 114, 114) !important;
+}
+
+.react-multi-carousel-dot.react-multi-carousel-dot--active button {
+  background: rgb(117, 201, 183) !important;
+}
+
+.texts {
+  color: black !important;
+}

@@ -1,0 +1,36 @@
+@import url('https://linear-gradient(to right, rgba(164, 212, 155, 1), rgba(117, 200, 182, 1)),fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+
+
+:root {
+  --PrimaryColor: 
+    --Primery-bg-btn: linear-gradient(to right, rgba(164, 212, 155, 1), rgba(117, 200, 182, 1)),
+    --Secondery-bg-btn: rgb(117, 201, 183),
+    --Hover-Nav-Footer: rgba(255, 225, 106, 1),
+    --prgraphics: white,
+    --Header-Text: black
+    /* nav & Footer fontwight : bold */
+
+}
+
+button {
+  background-color: linear-gradient(to right, rgba(164, 212, 155, 1), rgba(117, 200, 182, 1)) !important
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+  text-align: right;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: var(--Header-Text);
+}

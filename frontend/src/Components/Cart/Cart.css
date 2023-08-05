@@ -1,0 +1,68 @@
+#buy {
+  --tw-bg-opacity: 1;
+  background: linear-gradient(
+    to right,
+    rgba(164, 212, 155, 1),
+    rgba(117, 200, 182, 1)
+  ) !important;
+}
+
+.bebo {
+  background: linear-gradient(
+    to right,
+    rgba(164, 212, 155, 1),
+    rgba(117, 200, 182, 1)
+  );
+  color: white !important;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.ms-3 {
+  margin-right: 16px;
+}
+.col-lg-7 {
+  height: 400px;
+  overflow-y: scroll;
+}
+.bebo {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f0de72;
+}
+
+.btn-2 {
+  background-color: #f0de72;
+}
+
+.btn-2:hover {
+  background-color: rgb(117, 201, 183);
+}
+
+.pay {
+  color: #000;
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
+  }
+}

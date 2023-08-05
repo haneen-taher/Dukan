@@ -1,0 +1,65 @@
+#logo {
+  width: 150px;
+}
+
+.bg-light {
+  background: linear-gradient(
+    to right,
+    rgba(164, 212, 155, 1),
+    rgba(117, 200, 182, 1)
+  ) !important;
+}
+
+nav {
+  padding: 10px 60px !important;
+}
+
+.nav-link-1 {
+  color: white !important;
+}
+
+.nav-link-1:hover {
+  color: rgba(255, 225, 106, 1) !important;
+}
+
+.navbar-nav {
+  gap: 40px;
+  font-weight: 600;
+}
+
+.Logo {
+  font-family: 800 !important;
+  font-size: 20px;
+}
+
+.Logo::first-letter {
+  font-size: 30px;
+}
+
+a:hover {
+  color: white;
+}
+
+#logo-logo {
+  display: flex;
+  align-items: center;
+}
+#logo-logo span {
+  color: rgba(117, 200, 182, 1);
+  font-weight: 700;
+  font-size: larger;
+}
+
+#buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.icons {
+  padding: 5px;
+  margin: 5px;
+}
+
+.icons:hover {
+  background-color: rgba(255, 225, 106, 1) !important;
+}

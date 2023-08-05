@@ -1,0 +1,78 @@
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.links :hover {
+  transform: scaleY(0.9) translateY(-3px);
+  transition: 0.4s ease-in-out;
+  color: rgba(255, 225, 106, 1);
+}
+
+.mantine-11pjd7j {
+  margin-top: 0;
+  border-top: 0.0625rem solid #e9ecef;
+}
+
+.Logo-footer img {
+  width: 7em !important;
+}
+
+
+#Logo-footer {
+  width: 150px;
+}
+
+.bg-light {
+  /* background: linear-gradient(to right, rgba(164, 212, 155, 1), rgba(117, 200, 182, 1)) !important */
+}
+
+nav {
+  padding: 10px 60px !important;
+}
+
+.navbar-nav {
+  gap: 40px;
+  font-weight: 600;
+}
+
+.Logo-footer {
+  font-family: 800 !important;
+  font-size: 20px;
+}
+
+.Logo-footer::first-letter {
+  font-size: 30px;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+#logo-logo {
+  display: flex;
+  align-items: center;
+}
+#logo-logo #Logo-footer-log {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: larger;
+}
+.mantine-11pjd7j {
+  margin-top: 100px;
+}
+
+.mantine-11pjd7j {
+  margin-top: -4px;
+}
+
+.mantine-11pjd7j {
+  margin-top: 100px;
+}
+
